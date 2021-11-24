@@ -24,5 +24,4 @@ $suspendOldUsers=1; //1-yes, 0-no, All LDAP users will be suspended before inser
 
 
 
-
 This script is by OUBRECHT.com. 
