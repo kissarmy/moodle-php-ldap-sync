@@ -6,8 +6,11 @@ You can sync only new users from AD or only sync exist users in Moodle: $allowUp
 
 
 Function "import_ldap()" use classic OU queries. This function can be run ore times.
+
 import_ldap("OU=users,OU=company1,DC=se-europe,DC=domain,DC=int");
+
 import_ldap("OU=users,OU=company2,DC=se-europe,DC=domain,DC=int");
+
 
 Variables
 =========
