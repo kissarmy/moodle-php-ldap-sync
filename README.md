@@ -10,14 +10,20 @@ import_ldap("OU=users,OU=company2,DC=se-europe,DC=domain,DC=int");
 
 Variables
 =========
-$ldapServer="dc.domain.int";\n
+$ldapServer="dc.domain.int";
+
 $ldapUsername="domain\\username";
+
 $ldapPassword="Password";
+
 $defaultUserPassword="Passw0rd1";
+
 $defaultUserLanguage="en"; //cs, en, de, sk
 
 $allowUpdate=1; //1-yes, 0-no
+
 $allowInsertNew=1; //1-yes, 0-no
+
 $suspendOldUsers=1; //1-yes, 0-no, All LDAP users will be suspended before insert or update. During insert or update will be unspended.
 
 
