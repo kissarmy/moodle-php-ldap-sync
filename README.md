@@ -31,6 +31,20 @@ $allowInsertNew=1; //1-yes, 0-no
 $suspendOldUsers=1; //1-yes, 0-no, All LDAP users will be suspended before insert or update. During insert or update will be unspended.
 
 
+Value correction and skip users
+===============================
+You can modify this lines or delete it if you don't need it.
+
+//skip users
+if($email==NULL){continue;}; //skip user without e-mail
+
+if(str_replace(" ", "", strtolower($department))=="system"){$skip=1;;}; //skip system users
+
+if(str_replace(" ", "", strtolower($description))=="system"){$skip=1;}; //skip system users
+
+if(str_replace(" ", "", strtolower($firstName))==NULL AND str_replace(" ", "", strtolower($lastName))==NULL){$skip=1;}; //skip empty name
+
+if(str_replace(" ", "", strtolower($fullName))==NULL){$skip=1;}; //skip empty name
 
 
 
