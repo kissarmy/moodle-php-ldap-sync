@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-
+define('CLI_SCRIPT',true);  //allow this script from command line, but block it from web browser. Block (comment) this line if don't need it.
 require_once("config.php");
 
 
