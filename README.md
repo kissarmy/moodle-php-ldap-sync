@@ -10,7 +10,7 @@ import_ldap("OU=users,OU=company2,DC=se-europe,DC=domain,DC=int");
 
 Variables
 =========
-$ldapServer="dc.domain.int";
+$ldapServer="dc.domain.int";\n
 $ldapUsername="domain\\username";
 $ldapPassword="Password";
 $defaultUserPassword="Passw0rd1";
