@@ -38,4 +38,4 @@ $suspendOldUsers=1; //1-yes, 0-no, All LDAP users will be suspended before inser
 ------------------------------
 This script is by OUBRECHT.com
 
-Script is free for personal and comercial use. I am not responsible for any of your data or backups.
+Script is free for personal and comercial use. I am not responsible for any of your data.
