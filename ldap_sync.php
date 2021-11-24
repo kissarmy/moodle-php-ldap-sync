@@ -117,7 +117,7 @@ function import_ldap($ldapTree=NULL){
                 //$czechName = $data[$i]["extensionattribute1"][0];
                 
 
-                // korekce hodnot
+                // value correction
                 $email = str_replace(" ", "", $email);
                 $email = strtolower($email);
                 $mobile = str_replace(" ", "", $mobile);
